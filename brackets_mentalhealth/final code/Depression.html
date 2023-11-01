@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Brighter Beginnings/Depression</title>
+            <meta name="description" content="This is the description">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header class="header">
+        <img src="img/logo.png" class="logo1">
+        <h1 class="main-heading">Depression</h1>
+    </header>
+    <section>
+        <img src="img/sign:login.jpg" class="signlog">
+        <img src="img/heart.png" class="shopping-image">
+        <img src="img/shopping-cart.png" class="shopping-image">
+        <div class="menu-bar">
+        <!-- This is the button that triggers the collapse and expand behavior -->
+        <button class="menu-button btn-order" onclick="toggleMenu()"><img src="img/menu.png" class="menubar"></button>
+        <!-- This is the collapsible content (menu items) -->
+        <div class="menu-content" id="menuContent">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">Illnesses</button>
+                    <div class="dropdown-content">
+                        <a href="Depression.html">Despression</a>
+                        <a href="#">Anxiety</a>
+                        <a href="#">PTSD</a>
+                    </div>
+              </div>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+  <script>
+    // JavaScript function to toggle the menu content visibility
+    function toggleMenu() {
+      var menuContent = document.getElementById("menuContent");
+      menuContent.classList.toggle("show");
+    }
+  </script>
+        <h2 class="subheader">What is Depression?</h2>
+            <div>
+                <div class="design-row">
+                    <div class="design-column">
+                            <img class="image1" src="img/paintingwaves.jpg" width="100" height="100">
+                        </div>
+                        <div class="design-column">
+                            <p class="example-writing">Depression, for young people, can be like having a heavy and persistent cloud of sadness hanging over you. It's not just feeling down occasionally; it's feeling sad, hopeless, and empty most of the time. Depression can make it hard to enjoy the things you used to love, and it can make even simple tasks seem overwhelming. You might struggle with sleep, either sleeping too much or too little, and your energy levels may be very low. It's important to know that depression isn't something you can just snap out of, and it's not your fault. It's a real medical condition, like having the flu, but it affects your emotions and thoughts. The good news is that there's help available, and with support from trusted adults, friends, and professionals, it's possible to get through it and start feeling better.
+                            Depression is like a storm inside your mind and heart. It can make you feel like you're carrying a heavy backpack filled with negative thoughts and emotions. Sometimes, it might make you want to isolate yourself from friends and family or even make it hard to concentrate on schoolwork and hobbies you once enjoyed. But remember, it's okay to ask for help. Just like when you have a physical illness, seeking help from grown-ups you trust, like parents, teachers, or counselors, can make a big difference. You don't have to face it alone, and there are treatments and strategies that can help you break free from depression's grip and bring back the sunshine in your life.</p>
+                        </div>
+                </div>
+            </div>
+        <h2 class="subheader">What does it look like?</h2>
+            <div>
+                <div class="design-row">
+                    <div class="design-column">
+                        </div>
+                        <div class="design-column">
+                            <p class="example-writing">A iaculis at erat pellentesque adipiscing commodo elit. Turpis cursus in hac habitasse platea dictumst quisque. Sed lectus vestibulum mattis ullamcorper velit sed. Donec enim diam vulputate ut pharetra sit. Ultricies lacus sed turpis tincidunt id aliquet risus. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Mus mauris vitae ultricies leo. Varius morbi enim nunc faucibus a pellentesque. Pretium lectus quam id leo. Interdum velit laoreet id donec ultrices tincidunt. Metus vulputate eu scelerisque felis. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Laoreet sit amet cursus sit amet dictum sit.</p>
+                            <img class="image2" src="img/Storm_francis_crashing_waves-1023x682.webp" width="100" height="100">
+                        </div>
+                </div>
+            </div>
+        <h2 class="subheader">Signs your Struggling</h2>
+        <video controls>
+          <source src="video/videoplayback.mp4" class="video"type="video/mp4">
+        </video>
+    </section>
+    <footer>
+            <ul class="footer-links">
+                <h5 class="footer-header">&copy; 2023 My Website. All Rights Reserved</h5>
+                <hr class="line">
+                <li><a href="https://www.facebook.com/"><img class="footer-logo" src="img/Facebook%20Logo.png"></a></li>
+                <li><a href="https://open.spotify.com/"><img class="footer-logo" src="img/Spotify%20Logo.png"></a></li>
+                <li><a href="https://www.youtube.com/?themeRefresh=1"><img class="footer-logo" src="img/Youtube%20Logo.png"></a></li>
+            </ul>
+    </footer>
+    </body>
+</html>

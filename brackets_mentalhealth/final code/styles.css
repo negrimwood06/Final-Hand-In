@@ -1,0 +1,563 @@
+/*everything*/
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding:0 20px;
+}
+
+/*Header*/
+.header{
+    background-color: #9CF5A6;
+    height: 100px;
+    
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+}
+
+/*random*/
+.logo1{
+    border-radius: 50%;
+    float: right;
+    height: 5em;
+    margin-right: 5em;
+    margin-top: 0.5em;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: auto;
+}
+
+.writting {
+    text-align: center;
+    color: black;
+}
+
+/*images*/
+.image2 {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    float: right;
+    margin-right: 5em;
+    margin-top: 0.5em;
+}
+
+.image1 {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+}
+
+/*footer*/
+footer {
+    background-color: #9CF5A6;
+    color: #fff;
+/*    padding: 20px;*/
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+/*    text-align: right;*/
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    height: auto;
+    width: 30px;
+    float: right;
+    padding-bottom: 1em;
+}
+
+.footer-header {
+    float: top right;
+    padding-top: 1em;
+    
+}
+
+.line {
+    color: black;
+}
+
+.signlog {
+    border-radius: 50%;
+    height: 50px;
+    float: right;
+    padding-top: 1em;
+}
+
+/*context*/
+.design-column {
+    display: flex;
+    border-bottom: 1px;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.design-row {
+    display: flex;
+}
+
+.design-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 25px;
+    padding: 0, 15px;
+}
+
+/*menu*/
+.menubar {
+    height: 25px;
+    width: 25px;
+}
+
+
+.menu-bar {
+  width: 100px;
+  background-color: pink;
+  padding: 10px;
+}
+
+/* Hide the menu content by default using display property */
+.menu-content {
+  display: none;
+}
+
+/* Style the menu items */
+.menu-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-content li {
+  padding: 8px;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Show the menu content when the "show" class is added */
+.menu-content.show {
+  display: block;
+}
+
+/*dropdown, little burger looking thing*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+/*    float: right;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+/*    padding: px;*/
+    display: inline-block;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    padding-top: 0.025em;
+}
+
+.dropbtn {
+  background-color: inherit;
+  color: #333;
+/*  padding: 10px;*/
+/*  font-size: 16px;*/
+  border: none;
+  cursor: pointer;
+ font-weight: 100;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    right: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.example-writing {
+    text-align: justify;
+}
+
+/*meet the team*/
+.important-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+/*    font-weight: bold;*/
+    font-size: 1.5em;
+    color: #333;
+/*    margin-bottom: 15px;*/
+}
+
+/*
+.important-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.important-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+*/
+
+/*button*/
+.btn-test{
+    color: white;
+    background-color: powderblue;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-priamry{
+    color: white;
+    background-color: powderblue;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-priamry:hover{
+    background-color: #2d9cdb;
+}
+
+.shop-image {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-shop {
+    width: 20px;
+    height: 20px;
+}
+
+/*shop*/
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.shop-item-details{
+/*    display: flex;*/
+    align-items: center;
+    padding: 10px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+    justify-content: space-around;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.shop-item-image{
+    width: 200px;
+    height: 200px;
+}
+
+.shop-item-name{
+    flex-grow: 1;
+    color: #333;
+    justify-content: space-around;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 3em;
+    padding: 0 1.5em;
+}
+.shopping-image {
+    border-radius: 50%;
+    height: 30px;
+    float: right;
+    padding-top: 1em;
+}
+
+.video {
+   align-content: center;
+}
+
+/*image slider*/
+.slider{
+/*    width: 90%;*/
+    height: 650px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+
+}
+
+.imgslider{
+    width: 100%;
+    height: 100%;
+    
+    animation: ani 2s linear;
+    
+}
+
+@keyframes ani{
+    0%{transform: scale(1.2);}
+    10%{transform: scale(1);}
+    100%{transform: scale(1);}
+}
+
+.x {
+    height: 650px;
+    width: 100%
+}
+
+/*cart*/
+.cart-column{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-item-image-header{
+    width: 20px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-item{
+    font-size: 1.1em;
+    color: #333;
+    margin-right: 20px; 
+}
+
+.btn-danger{
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    border-radius: .3em;
+    height: 40px;
+}
+
+.cart-quantity{
+    font-size: 1.1em;
+    color: #333;
+    margin-right: 20px;
+}
+
+.btn-danger:hover{
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    background-color: mediumpurple;
+    border: none;
+    border-radius: .5em;
+}
+
+.cart-header{
+    font-weight: bold;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-priamry{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-priamry:hover{
+    background-color: #2d9cdb;
+}
+
+
+button{
+/*  width: 75%;*/
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+/*  background: pink;*/
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-order {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: pink;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-us-writing {
+    text-align: center;
+}

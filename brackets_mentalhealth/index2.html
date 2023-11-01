@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Menu Bar</title>
+  <link rel="stylesheet" href="menubar.css" href="styles.css">
+</head>
+<body>
+    <section>
+      <div class="menu-bar">
+        <!-- This is the button that triggers the collapse and expand behavior -->
+        <button class="menu-button" onclick="toggleMenu()">Menu Bar</button>
+        <!-- This is the collapsible content (menu items) -->
+        <div class="menu-content" id="menuContent">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+</section>
+
+  <script>
+    // JavaScript function to toggle the menu content visibility
+    function toggleMenu() {
+      var menuContent = document.getElementById("menuContent");
+      menuContent.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
